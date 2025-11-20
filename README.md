@@ -659,26 +659,15 @@ REFRESH_TOKEN_EXPIRES_IN=7d
 
 ---
 
-## 📄 License
-
-This project is licensed under the ISC License - see the [LICENSE](LICENSE) file for details.
-
----
-
 ## 📞 Contact & Professional Links
 
 <div align="center">
 
 **Utkarsh Mani** - Backend Developer Intern Candidate
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue.svg?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/utkarshmani)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black.svg?style=for-the-badge&logo=github)](https://github.com/utkarshmani)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue.svg?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/tripathiutakarsh/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black.svg?style=for-the-badge&logo=github)](https://github.com/utakarsh23)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-green.svg?style=for-the-badge&logo=globe)](https://utkarshmani.dev)
-[![Email](https://img.shields.io/badge/Email-Contact-red.svg?style=for-the-badge&logo=gmail)](mailto:utkarsh@example.com)
-
-**📍 Available for:** Backend Development, Full-Stack Projects, System Architecture  
-**🎯 Expertise:** Node.js, MongoDB, Redis, React, TypeScript, REST APIs  
-**🌟 Passion:** Building scalable, production-ready applications
 
 </div>
 
@@ -686,9 +675,6 @@ This project is licensed under the ISC License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**Built with ❤️ for Backend Developer Intern Assignment**
-
-*Demonstrating enterprise-level full-stack development capabilities*
 
 ![Footer](https://img.shields.io/badge/Thank%20you%20for%20reviewing!-🚀-blue.svg)
 ![Skills](https://img.shields.io/badge/Skills-Full%20Stack%20Developer-brightgreen.svg)
