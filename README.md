@@ -14,7 +14,7 @@
 [![Redis](https://img.shields.io/badge/Redis-Latest-red.svg?style=flat-square&logo=redis)](https://redis.io/)
 [![License](https://img.shields.io/badge/License-ISC-yellow.svg?style=flat-square)](LICENSE)
 
-[🔴 **Live Demo**](https://task-manager-demo.railway.app) | [📖 **API Docs**](https://documenter.getpostman.com/) | [🎯 **Features**](#-features)
+
 
 </div>
 
@@ -594,12 +594,10 @@ REFRESH_TOKEN_EXPIRES_IN=7d
 
 [![GitHub](https://img.shields.io/badge/GitHub-@utakarsh23-black?style=flat-square&logo=github)](https://github.com/utakarsh23)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Utkarsh%20Mani-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/utakarsh23)
-[![Email](https://img.shields.io/badge/Email-utakarsh23@example.com-red?style=flat-square&logo=gmail)](mailto:utakarsh23@example.com)
 
 **📍 Project Links**
 
 🔗 **Repository**: [utakarsh23/Backend_Task-001](https://github.com/utakarsh23/Backend_Task-001)  
-🚀 **Live Demo**: [task-manager-demo.railway.app](https://task-manager-demo.railway.app)  
 📖 **API Docs**: [Postman Collection](./BC2.postman_collection.json)
 
 </div>
@@ -659,26 +657,15 @@ REFRESH_TOKEN_EXPIRES_IN=7d
 
 ---
 
-## 📄 License
-
-This project is licensed under the ISC License - see the [LICENSE](LICENSE) file for details.
-
----
-
 ## 📞 Contact & Professional Links
 
 <div align="center">
 
 **Utkarsh Mani** - Backend Developer Intern Candidate
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue.svg?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/utkarshmani)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black.svg?style=for-the-badge&logo=github)](https://github.com/utkarshmani)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue.svg?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/tripathiutakarsh/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black.svg?style=for-the-badge&logo=github)](https://github.com/utakarsh23)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-green.svg?style=for-the-badge&logo=globe)](https://utkarshmani.dev)
-[![Email](https://img.shields.io/badge/Email-Contact-red.svg?style=for-the-badge&logo=gmail)](mailto:utkarsh@example.com)
-
-**📍 Available for:** Backend Development, Full-Stack Projects, System Architecture  
-**🎯 Expertise:** Node.js, MongoDB, Redis, React, TypeScript, REST APIs  
-**🌟 Passion:** Building scalable, production-ready applications
 
 </div>
 
@@ -686,9 +673,6 @@ This project is licensed under the ISC License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**Built with ❤️ for Backend Developer Intern Assignment**
-
-*Demonstrating enterprise-level full-stack development capabilities*
 
 ![Footer](https://img.shields.io/badge/Thank%20you%20for%20reviewing!-🚀-blue.svg)
 ![Skills](https://img.shields.io/badge/Skills-Full%20Stack%20Developer-brightgreen.svg)
