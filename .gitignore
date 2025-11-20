@@ -1,0 +1,38 @@
+# Environment Files
+*.env
+*.env.*
+!.env.example
+
+# Node Dependencies
+node_modules/
+**/node_modules/
+
+# Build Outputs
+dist/
+build/
+**/dist/
+**/build/
+out/
+**/out/
+
+# Next/Vite
+.next/
+**/.next/
+.cache/
+**/.cache/
+.vite/
+**/.vite/
+.turbo/
+**/.turbo/
+
+# Logs
+*.log
+logs/
+
+# Editor
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
