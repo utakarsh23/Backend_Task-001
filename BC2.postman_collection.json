@@ -1,0 +1,1294 @@
+{
+	"info": {
+		"_postman_id": "77b1299d-05a6-4177-89cb-1d0e74e5680b",
+		"name": "BC2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39461001",
+		"_collection_link": "https://svf444.postman.co/workspace/SVF-Workspace~feb65d8b-ad3b-4708-8ab3-e74c517cb0f6/collection/39461001-77b1299d-05a6-4177-89cb-1d0e74e5680b?action=share&source=collection_link&creator=39461001"
+	},
+	"item": [
+		{
+			"name": "Public",
+			"item": [
+				{
+					"name": "Signup",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"userName\":\"shresth23\",\n    \"userEmail\":\"shresth0@gmail.com\",\n    \"password\":\"redgere23\"\n\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:7870/public/v1/signup",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "7870",
+							"path": [
+								"public",
+								"v1",
+								"signup"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "New Request",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"userName\":\"shresth23\",\n    \"userEmail\":\"shresth0@gmail.com\",\n    \"password\":\"redgere23\"\n\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:7870/public/v1/signup",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "7870",
+									"path": [
+										"public",
+										"v1",
+										"signup"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "291"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"123-D3vWC4WMx5ho9fOlTbVKXUiwuMg\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 19 Nov 2025 20:00:28 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"User SignUp Successful\",\n    \"username\": \"shresth23\",\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJzaHJlc3RoMEBnbWFpbC5jb20iLCJ1c2VyTmFtZSI6InNocmVzdGgyMyIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzYzNTgyNDI4LCJleHAiOjE3NjM2Njg4Mjh9.RgYrKmzzszJJP2SMz4bmRSyF9-o3GkjokIjVtSObHgg\"\n}"
+						}
+					]
+				},
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"userName\":\"shresth23\",\n    \"userEmail\":\"shresth0@gmail.com\",\n    \"password\":\"redgere23\"\n\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:7870/public/v1/signup",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "7870",
+							"path": [
+								"public",
+								"v1",
+								"signup"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Signup Copy",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"userName\":\"shresth23\",\n    \"userEmail\":\"shresth0@gmail.com\",\n    \"password\":\"redgere23\"\n\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:7870/public/v1/login",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "7870",
+									"path": [
+										"public",
+										"v1",
+										"login"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "299"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"12b-TogWTdPYA0hrJkT6xt/QBCS771g\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 19 Nov 2025 20:00:31 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Login successful\",\n    \"username\": \"shresth23\",\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InNocmVzdGgyMyIsInVzZXJFbWFpbCI6InNocmVzdGgwQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzYzNTgyNDMxLCJleHAiOjE3NjM2Njg4MzF9.dCS4_DfcVanf1K4k8A2-CwTH1PldHM1b_LSA6uL_N4U\",\n    \"role\": \"user\"\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "AddTask",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"taskName\" : \"DSM\",\n    \"description\" :\"assssss\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:7870/user/v1/taska/add",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "7870",
+							"path": [
+								"user",
+								"v1",
+								"taska",
+								"add"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "New Request",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"taskName\" : \"aaaaa\",\n    \"description\" :\"ssssss\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:7870/user/v1/tasks/add",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "7870",
+									"path": [
+										"user",
+										"v1",
+										"tasks",
+										"add"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "269"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"10d-Gf7xsUOa0wqdeuewXG/v8XnT5+I\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 19 Nov 2025 20:08:37 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Task Added Successfully\",\n    \"task\": {\n        \"taskName\": \"aaaaa\",\n        \"description\": \"ssssss\",\n        \"status\": \"Not_Started\",\n        \"taskOwner\": \"691e21dc8538b1a75345c31a\",\n        \"_id\": \"691e23c5442dd428348b5b17\",\n        \"createdAt\": \"2025-11-19T20:08:37.299Z\",\n        \"updatedAt\": \"2025-11-19T20:08:37.299Z\",\n        \"__v\": 0\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "update task",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"status\":\"Completed\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:7870/user/v1/tasks/update/691e18096517ad294a8b0f16",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "7870",
+							"path": [
+								"user",
+								"v1",
+								"tasks",
+								"update",
+								"691e18096517ad294a8b0f16"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "New Request",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"status\":\"Completed\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:7870/user/v1/tasks/update/691e18096517ad294a8b0f16",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "7870",
+									"path": [
+										"user",
+										"v1",
+										"tasks",
+										"update",
+										"691e18096517ad294a8b0f16"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "268"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"10c-ZfJX+JxqQRJVE1KWmiTD+uW+Ss0\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 19 Nov 2025 19:23:46 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Task Updated Successfully\",\n    \"task\": {\n        \"_id\": \"691e18096517ad294a8b0f16\",\n        \"taskName\": \"DSM\",\n        \"description\": \"assssss\",\n        \"status\": \"Completed\",\n        \"taskOwner\": \"691e14b9355c37cd22176cc1\",\n        \"createdAt\": \"2025-11-19T19:18:33.564Z\",\n        \"updatedAt\": \"2025-11-19T19:23:45.109Z\",\n        \"__v\": 0\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "getAlltasks",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"status\":\"Completed\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:7870/user/v1/tasks",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "7870",
+							"path": [
+								"user",
+								"v1",
+								"tasks"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "getAlltasks",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"status\":\"Completed\"\n}"
+								},
+								"url": {
+									"raw": "http://localhost:7870/user/v1/tasks",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "7870",
+									"path": [
+										"user",
+										"v1",
+										"tasks"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "253"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"fd-Yjf/FZVHameI8Vlw66rrJpd/c6Y\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 19 Nov 2025 20:10:06 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"source\": \"cache\",\n    \"tasks\": [\n        {\n            \"_id\": \"691e23c5442dd428348b5b17\",\n            \"taskName\": \"aaaaa\",\n            \"description\": \"ssssss\",\n            \"status\": \"Not_Started\",\n            \"taskOwner\": \"691e21dc8538b1a75345c31a\",\n            \"createdAt\": \"2025-11-19T20:08:37.299Z\",\n            \"updatedAt\": \"2025-11-19T20:08:37.299Z\",\n            \"__v\": 0\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "get completed tasks",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"status\":\"Completed\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:7870/user/v1/tasks",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "7870",
+							"path": [
+								"user",
+								"v1",
+								"tasks"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "New Request Copy",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"status\":\"Completed\"\n}"
+								},
+								"url": {
+									"raw": "http://localhost:7870/user/v1/tasks/completed",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "7870",
+									"path": [
+										"user",
+										"v1",
+										"tasks",
+										"completed"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "29"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"1d-q6b/7QvNJ2cW7M3G0veyi3QsFtI\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 19 Nov 2025 20:08:59 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"source\": \"cache\",\n    \"tasks\": []\n}"
+						}
+					]
+				},
+				{
+					"name": "get incompleted tasks",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"status\":\"Completed\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:7870/user/v1/tasks",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "7870",
+							"path": [
+								"user",
+								"v1",
+								"tasks"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "get completed tasks Copy",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"status\":\"Completed\"\n}"
+								},
+								"url": {
+									"raw": "http://localhost:7870/user/v1/tasks/incomplete",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "7870",
+									"path": [
+										"user",
+										"v1",
+										"tasks",
+										"incomplete"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "253"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"fd-Yjf/FZVHameI8Vlw66rrJpd/c6Y\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 19 Nov 2025 20:09:15 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"source\": \"cache\",\n    \"tasks\": [\n        {\n            \"_id\": \"691e23c5442dd428348b5b17\",\n            \"taskName\": \"aaaaa\",\n            \"description\": \"ssssss\",\n            \"status\": \"Not_Started\",\n            \"taskOwner\": \"691e21dc8538b1a75345c31a\",\n            \"createdAt\": \"2025-11-19T20:08:37.299Z\",\n            \"updatedAt\": \"2025-11-19T20:08:37.299Z\",\n            \"__v\": 0\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "profile",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": [
+						{
+							"name": "New Request",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"status\":\"Completed\"\n}"
+								},
+								"url": {
+									"raw": "http://localhost:7870/user/v1/profile",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "7870",
+									"path": [
+										"user",
+										"v1",
+										"profile"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "282"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"11a-SmAPcVScVgT3iowRhQJIN4Fd21Y\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 19 Nov 2025 20:09:58 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"source\": \"cache\",\n    \"profile\": {\n        \"user\": {\n            \"_id\": \"691e21dc8538b1a75345c31a\",\n            \"userName\": \"shresth23\",\n            \"userEmail\": \"shresth0@gmail.com\",\n            \"role\": \"user\",\n            \"createdAt\": \"2025-11-19T20:00:28.422Z\",\n            \"updatedAt\": \"2025-11-19T20:00:28.422Z\",\n            \"__v\": 0\n        },\n        \"totalTasks\": 1,\n        \"completedTasks\": 0,\n        \"incompleteTasks\": 1\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "delete task",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"role\" :\"Admin\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:7870/user/v1/tasks/691e18096517ad294a8b0f16/delete",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "7870",
+							"path": [
+								"user",
+								"v1",
+								"tasks",
+								"691e18096517ad294a8b0f16",
+								"delete"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "New Request",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"role\" :\"Admin\"\n}"
+								},
+								"url": {
+									"raw": "http://localhost:7870/user/v1/tasks/691e21ef8538b1a75345c31e/delete",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "7870",
+									"path": [
+										"user",
+										"v1",
+										"tasks",
+										"691e21ef8538b1a75345c31e",
+										"delete"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "269"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"10d-xh0KUB++UwTYy4NDmkjXAJ7fD4U\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 19 Nov 2025 20:01:17 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Task Deleted Successfully\",\n    \"task\": {\n        \"_id\": \"691e21ef8538b1a75345c31e\",\n        \"taskName\": \"OOPS\",\n        \"description\": \"lolol\",\n        \"status\": \"Not_Started\",\n        \"taskOwner\": \"691e21dc8538b1a75345c31a\",\n        \"createdAt\": \"2025-11-19T20:00:47.451Z\",\n        \"updatedAt\": \"2025-11-19T20:00:47.451Z\",\n        \"__v\": 0\n    }\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Dev & Admin",
+			"item": [
+				{
+					"name": "getAllusers",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": [
+						{
+							"name": "New Request",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:7870/admin/v1/users",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "7870",
+									"path": [
+										"admin",
+										"v1",
+										"users"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "201"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"c9-oNYXC4HSAgWOs1Z6yK84VKa8E78\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 19 Nov 2025 19:30:51 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"users\": [\n        {\n            \"_id\": \"691e14b9355c37cd22176cc1\",\n            \"userName\": \"shresth23\",\n            \"userEmail\": \"shresth0@gmail.com\",\n            \"role\": \"dev\",\n            \"createdAt\": \"2025-11-19T19:04:25.481Z\",\n            \"updatedAt\": \"2025-11-19T19:04:25.481Z\",\n            \"__v\": 0\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "get user tasks",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:7870/admin/v1/users/691e14b9355c37cd22176cc1/tasks",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "7870",
+							"path": [
+								"admin",
+								"v1",
+								"users",
+								"691e14b9355c37cd22176cc1",
+								"tasks"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "getAllusers Copy",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:7870/admin/v1/users/691e14b9355c37cd22176cc1/tasks",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "7870",
+									"path": [
+										"admin",
+										"v1",
+										"users",
+										"691e14b9355c37cd22176cc1",
+										"tasks"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "456"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"1c8-uE7EHXvOOPSIqysiGKRt6CPZVk0\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 19 Nov 2025 19:40:53 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"tasks\": [\n        {\n            \"_id\": \"691e18096517ad294a8b0f16\",\n            \"taskName\": \"DSM\",\n            \"description\": \"assssss\",\n            \"status\": \"Completed\",\n            \"taskOwner\": \"691e14b9355c37cd22176cc1\",\n            \"createdAt\": \"2025-11-19T19:18:33.564Z\",\n            \"updatedAt\": \"2025-11-19T19:23:45.109Z\",\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"691e197f674b6598bf609cb0\",\n            \"taskName\": \"OOPS\",\n            \"description\": \"lolol\",\n            \"status\": \"Not_Started\",\n            \"taskOwner\": \"691e14b9355c37cd22176cc1\",\n            \"createdAt\": \"2025-11-19T19:24:47.210Z\",\n            \"updatedAt\": \"2025-11-19T19:24:47.210Z\",\n            \"__v\": 0\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "add admin",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"role\" :\"admin\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:7870/admin/v1/users/691e14b9355c37cd22176cc1/role",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "7870",
+							"path": [
+								"admin",
+								"v1",
+								"users",
+								"691e14b9355c37cd22176cc1",
+								"role"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "New Request",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"role\" :\"admin\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:7870/admin/v1/users/691e14b9355c37cd22176cc1/role",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "7870",
+									"path": [
+										"admin",
+										"v1",
+										"users",
+										"691e14b9355c37cd22176cc1",
+										"role"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "243"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"f3-C2MehqQrOkmgkhZ3SFtu04Ovpog\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 19 Nov 2025 19:50:29 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"User role updated successfully\",\n    \"user\": {\n        \"_id\": \"691e14b9355c37cd22176cc1\",\n        \"userName\": \"shresth23\",\n        \"userEmail\": \"shresth0@gmail.com\",\n        \"role\": \"admin\",\n        \"createdAt\": \"2025-11-19T19:04:25.481Z\",\n        \"updatedAt\": \"2025-11-19T19:50:29.573Z\",\n        \"__v\": 0\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "user profile",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"role\" :\"Admin\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:7870/admin/v1/users/691e14b9355c37cd22176cc1/profile",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "7870",
+							"path": [
+								"admin",
+								"v1",
+								"users",
+								"691e14b9355c37cd22176cc1",
+								"profile"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "New Request",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"role\" :\"Admin\"\n}"
+								},
+								"url": {
+									"raw": "http://localhost:7870/admin/v1/users/691e14b9355c37cd22176cc1/profile",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "7870",
+									"path": [
+										"admin",
+										"v1",
+										"users",
+										"691e14b9355c37cd22176cc1",
+										"profile"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "302"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"12e-UMglW1zX9/wmR+GoB3D7BghbD8c\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 19 Nov 2025 19:50:49 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"User profile retrieved successfully\",\n    \"user\": {\n        \"_id\": \"691e14b9355c37cd22176cc1\",\n        \"userName\": \"shresth23\",\n        \"userEmail\": \"shresth0@gmail.com\",\n        \"role\": \"admin\",\n        \"createdAt\": \"2025-11-19T19:04:25.481Z\",\n        \"updatedAt\": \"2025-11-19T19:50:29.573Z\",\n        \"__v\": 0\n    },\n    \"totalTasks\": 2,\n    \"completedTasks\": 1,\n    \"incompleteTasks\": 1\n}"
+						}
+					]
+				},
+				{
+					"name": "delete user",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"role\" :\"Admin\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:7870/admin/v1/users/691e14b9355c37cd22176cc1/delete",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "7870",
+							"path": [
+								"admin",
+								"v1",
+								"users",
+								"691e14b9355c37cd22176cc1",
+								"delete"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "delete user",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"role\" :\"Admin\"\n}"
+								},
+								"url": {
+									"raw": "http://localhost:7870/admin/v1/users/691e14b9355c37cd22176cc1/delete",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "7870",
+									"path": [
+										"admin",
+										"v1",
+										"users",
+										"691e14b9355c37cd22176cc1",
+										"delete"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "238"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"ee-ZsPsDebCuEhLzwT77kvD8I1Xj6Q\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 19 Nov 2025 19:51:55 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"User deleted successfully\",\n    \"user\": {\n        \"_id\": \"691e14b9355c37cd22176cc1\",\n        \"userName\": \"shresth23\",\n        \"userEmail\": \"shresth0@gmail.com\",\n        \"role\": \"admin\",\n        \"createdAt\": \"2025-11-19T19:04:25.481Z\",\n        \"updatedAt\": \"2025-11-19T19:50:29.573Z\",\n        \"__v\": 0\n    }\n}"
+						}
+					]
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InNocmVzdGgyMyIsInVzZXJFbWFpbCI6InNocmVzdGgwQGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzYzNTgyNDMxLCJleHAiOjE3NjM2Njg4MzF9.dCS4_DfcVanf1K4k8A2-CwTH1PldHM1b_LSA6uL_N4U",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

@@ -14,7 +14,7 @@
 [![Redis](https://img.shields.io/badge/Redis-Latest-red.svg?style=flat-square&logo=redis)](https://redis.io/)
 [![License](https://img.shields.io/badge/License-ISC-yellow.svg?style=flat-square)](LICENSE)
 
-[🔴 **Live Demo**](https://task-manager-demo.railway.app) | [📖 **API Docs**](https://documenter.getpostman.com/) | [🎯 **Features**](#-features)
+
 
 </div>
 
@@ -594,12 +594,10 @@ REFRESH_TOKEN_EXPIRES_IN=7d
 
 [![GitHub](https://img.shields.io/badge/GitHub-@utakarsh23-black?style=flat-square&logo=github)](https://github.com/utakarsh23)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Utkarsh%20Mani-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/utakarsh23)
-[![Email](https://img.shields.io/badge/Email-utakarsh23@example.com-red?style=flat-square&logo=gmail)](mailto:utakarsh23@example.com)
 
 **📍 Project Links**
 
 🔗 **Repository**: [utakarsh23/Backend_Task-001](https://github.com/utakarsh23/Backend_Task-001)  
-🚀 **Live Demo**: [task-manager-demo.railway.app](https://task-manager-demo.railway.app)  
 📖 **API Docs**: [Postman Collection](./BC2.postman_collection.json)
 
 </div>
